@@ -2,6 +2,12 @@ body {
     margin: 0;
     font-family: Helmet,Freesans,Helvetica,Arial,sans-serif;
 }
+.break {
+    clear: both;
+}
+h1 {
+    color: #686868;
+}
 #topbar {
     color: black;
     background-color: #FFFFFF;
@@ -76,7 +82,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-position-x: 177px;
-    
 }
 #newsbar {
     color: black;
@@ -115,6 +120,73 @@ body {
 #topic-menu-list ul #more-2 img {
     margin: 0 0 2px 2px;
 }
-.break {
-    clear: both;
+#content {
+    width: 100%;
+    color: #404040;
 }
+.title {
+    margin-top: 7px;
+    font-size: 1.2em;
+    border-bottom: 3px solid #BB1919;
+    padding-bottom: 2px;
+    width: 118px;
+}
+.news-item {
+    float: left;
+    width: 240px;
+    font-size: 0.88em;
+    position: relative;
+    top: -22px;
+    margin-right: 6px;
+    
+}
+.news-item a {
+    text-decoration: none;
+}
+.news-item a:hover {
+    color: #1167A8 !important;
+}
+.news-item a:visited {
+    text-decoration: none;
+    color: #404040;
+}
+.headline-image {
+    float: left;
+    width: 395px;
+    position: relative;
+    top: -10px;
+}
+#clock {
+    float: left;
+    width: 15px;
+    margin-right: 5px;
+    position: relative;
+    top: 1px;
+}
+.date {
+    float: left;
+    margin: 0 6px 0 0;
+    border-right: 1px solid lightgray;
+    padding-right: 6px;
+}
+.red-dateline {
+    color: #BB1919;
+}
+.line-break {
+    display: block;
+    border-top: 1px solid #BB1919;
+    margin: 0;
+    width: 40px;
+}
+.video {
+    background-size: 16px;
+    background-image: url("images/triangle.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+}
+.links {
+    margin-top: 8px;
+    line-height: 1.6em;
+}
+
